@@ -32,7 +32,7 @@ func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
-		log.Printf("defaulting to port %s", port)
+		log.Printf("My defaulting to port %s", port)
 	}
 
 	// Start HTTP server.
